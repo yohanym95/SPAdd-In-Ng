@@ -1,0 +1,23 @@
+mat-form-field {
+    width: 100%;
+}
+
+container{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button{
+    align-items: center;
+}
+
+mat-card {
+    flex: auto;
+    justify-content: center;
+}

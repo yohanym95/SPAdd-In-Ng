@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="682322ea-bb56-4e16-9036-40075ae10074" 
+        solutionId="682322ea-bb56-4e16-9036-40075ae10074" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SharePointAddInNgTest"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="96b52a34-f1e9-486d-ab65-f0ca54b77f83" />
+  </features>
+</package>

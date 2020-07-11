@@ -1,0 +1,5 @@
+C:\Users\yohan\source\repos\SharePointAddInNgTest\SharePointAddInNgTest\bin\Debug\SharePointAddInNgTest.pdb
+C:\Users\yohan\source\repos\SharePointAddInNgTest\SharePointAddInNgTest\obj\Debug\SharePointAddInNgTest.csprojAssemblyReference.cache
+C:\Users\yohan\source\repos\SharePointAddInNgTest\SharePointAddInNgTest\obj\Debug\SharePointAddInNgTest.csproj.CoreCompileInputs.cache
+C:\Users\yohan\source\repos\SharePointAddInNgTest\SharePointAddInNgTest\obj\Debug\SharePointAddInNgTest.dll
+C:\Users\yohan\source\repos\SharePointAddInNgTest\SharePointAddInNgTest\obj\Debug\SharePointAddInNgTest.pdb

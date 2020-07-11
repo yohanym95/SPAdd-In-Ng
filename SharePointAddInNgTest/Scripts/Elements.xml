@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\main.chunk.js" Url="Scripts/main.chunk.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\polyfills.chunk.js" Url="Scripts/polyfills.chunk.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\styles.chunk.js" Url="Scripts/styles.chunk.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor.chunk.js" Url="Scripts/vendor.chunk.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\runtime.js" Url="Scripts/runtime.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

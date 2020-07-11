@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="e2e\protractor.conf.js" Target="e2e\" Type="ElementFile" />
+    <ProjectItemFile Source="config\hashing.js" Target="config\" Type="ElementFile" />
+    <ProjectItemFile Source="config\helpers.js" Target="config\" Type="ElementFile" />
+    <ProjectItemFile Source="config\webpack.config.js" Target="config\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Services\api.service.spec.ts" Target="src\app\Services\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Services\api.service.ts" Target="src\app\Services\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Services\sharepoint.service.spec.ts" Target="src\app\Services\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Services\sharepoint.service.ts" Target="src\app\Services\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Components\todo\todo.component.css" Target="src\app\Components\todo\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Components\todo\todo.component.html" Target="src\app\Components\todo\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Components\todo\todo.component.spec.ts" Target="src\app\Components\todo\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app\Components\todo\todo.component.ts" Target="src\app\Components\todo\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

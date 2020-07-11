@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="e2e\protractor.conf.js" Url="e2e/protractor.conf.js" ReplaceContent="TRUE" />
+    <File Path="config\hashing.js" Url="config/hashing.js" ReplaceContent="TRUE" />
+    <File Path="config\helpers.js" Url="config/helpers.js" ReplaceContent="TRUE" />
+    <File Path="config\webpack.config.js" Url="config/webpack.config.js" ReplaceContent="TRUE" />
+    <File Path="src\app\Services\api.service.spec.ts" Url="src/app/Services/api.service.spec.ts" ReplaceContent="TRUE" />
+    <File Path="src\app\Services\api.service.ts" Url="src/app/Services/api.service.ts" ReplaceContent="TRUE" />
+    <File Path="src\app\Services\sharepoint.service.spec.ts" Url="src/app/Services/sharepoint.service.spec.ts" ReplaceContent="TRUE" />
+    <File Path="src\app\Services\sharepoint.service.ts" Url="src/app/Services/sharepoint.service.ts" ReplaceContent="TRUE" />
+    <File Path="src\app\Components\todo\todo.component.css" Url="src/app/Components/todo/todo.component.css" ReplaceContent="TRUE" />
+    <File Path="src\app\Components\todo\todo.component.html" Url="src/app/Components/todo/todo.component.html" ReplaceContent="TRUE" />
+    <File Path="src\app\Components\todo\todo.component.spec.ts" Url="src/app/Components/todo/todo.component.spec.ts" ReplaceContent="TRUE" />
+    <File Path="src\app\Components\todo\todo.component.ts" Url="src/app/Components/todo/todo.component.ts" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
