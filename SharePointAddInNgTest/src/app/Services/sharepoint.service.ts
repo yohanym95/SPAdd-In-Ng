@@ -11,7 +11,7 @@ export class SharepointService {
   }
 
   targetUrl(url: string): string {
-    const hostUrl = 'https://99xtech.sharepoint.com/sites/spec-dev/experiment/';
+   
     if (hostUrl) {
       const api = '_api/';
       const index = url.indexOf(api);
