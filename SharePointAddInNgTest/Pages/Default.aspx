@@ -11,12 +11,12 @@
         <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
         <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
         <meta name="WebPartPageExpansion" content="full" />
-        <meta name="viewport" content="width=db5dfaa734dbaa3d4708-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=d4259c55488f4146a086-width, initial-scale=1, shrink-to-fit=no">
     
         <!-- Add your CSS styles to the following file -->
         <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
         <base href="#" />
-        <meta name="viewport" content="width=db5dfaa734dbaa3d4708-width, initial-scale=1">
+        <meta name="viewport" content="width=d4259c55488f4146a086-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

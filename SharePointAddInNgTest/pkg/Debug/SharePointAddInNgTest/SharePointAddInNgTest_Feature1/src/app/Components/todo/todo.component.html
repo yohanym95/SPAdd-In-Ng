@@ -1,18 +1,45 @@
 <div class="container">
   <div class="col-md-12">
     <div class="container">
-      <form #userInput="ngForm" (ngSubmit)="onSave(userInput.value)">
+      <form #userInput="ngForm">
         <mat-form-field class=" pt-5 pb-2 text-center">
-          <input matInput class="p-2" name="todo" ngModel />
+          <input
+            matInput
+            class="p-2"
+            name="todo"
+            [(ngModel)]="todoValue"
+            ngModel
+          />
         </mat-form-field>
-        <div class="text-center">
+        <div class="col-md-12 text-center">
+          <button
+            type="button"
+            mat-raised-button
+            class="col-md-3 text-center mr-1"
+            style="font-size: 22px;font-weight: bold;"
+            (click)="onSave(userInput.value)"
+          >
+            Save
+          </button>
+
+          <button
+            type="button"
+            mat-raised-button
+            class="col-md-3 text-center mr-1"
+            style="font-size: 22px;font-weight: bold;"
+            (click)="onUpdateTodo(userInput.value)"
+          >
+            Update
+          </button>
+
           <button
             type="submit"
             mat-raised-button
-            class="col-md-6 text-center"
+            class="col-md-3 text-center"
             style="font-size: 22px;font-weight: bold;"
+            (click)="onDeleteTodo(userInput.value)"
           >
-            Save
+            Delete
           </button>
         </div>
       </form>
@@ -20,6 +47,7 @@
     <div
       class="col-md-12 justify-content-center pr-5 pl-5 pt-2"
       *ngFor="let todo of todoList"
+      (click)="(getClickData(todo))"
     >
       <mat-card
         class="pr-5 pl-5 pt-2 pb-2"
